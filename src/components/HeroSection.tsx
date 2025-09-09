@@ -19,6 +19,10 @@ const HeroSection = () => {
 
       <div className="container mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         <div className="text-center max-w-4xl mx-auto">
+          <br></br>
+          <br></br>
+          <br> </br>
+          
           {/* Badge */}
           <div className="inline-flex items-center space-x-2 bg-card/20 backdrop-blur-sm border border-brand-green/20 rounded-full px-4 py-2 mb-8 animate-fade-in">
             <Sparkles className="w-4 h-4 text-brand-green" />
