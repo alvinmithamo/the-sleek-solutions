@@ -101,6 +101,10 @@ export default {
           from: { transform: "rotate(0deg)" },
           to: { transform: "rotate(360deg)" },
         },
+        "scroll": {
+          "0%": { transform: "translateX(0)" },
+          "100%": { transform: "translateX(-100%)" },
+        },
       },
       animation: {
         "accordion-down": "accordion-down 0.2s ease-out",
@@ -111,6 +115,7 @@ export default {
         "glow-pulse": "glow-pulse 2s ease-in-out infinite",
         "float": "float 3s ease-in-out infinite",
         "spin-slow": "spin-slow 3s linear infinite",
+        "scroll": "scroll 20s linear infinite",
       },
       transitionTimingFunction: {
         "smooth": "var(--transition-smooth)",
