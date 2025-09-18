@@ -21,13 +21,14 @@ const HeroSection = () => {
         <div className="text-center max-w-4xl mx-auto">
           <br></br>
           <br></br>
-          <br> </br>
-          
+          <br></br>
+          <br></br>
+          <br></br>
           {/* Badge */}
           <div className="inline-flex items-center space-x-2 bg-card/20 backdrop-blur-sm border border-brand-green/20 rounded-full px-4 py-2 mb-8 animate-fade-in">
             <Sparkles className="w-4 h-4 text-brand-green" />
             <span className="text-sm font-body text-foreground">
-              Innovative Digital Solutions
+              Innovative Tech Solutions
             </span>
           </div>
 
@@ -58,7 +59,7 @@ const HeroSection = () => {
           {/* Stats */}
           <div className="grid grid-cols-2 md:grid-cols-4 gap-8 max-w-2xl mx-auto animate-fade-in" style={{ animationDelay: '0.6s' }}>
             <div className="text-center">
-              <div className="text-3xl font-heading font-bold text-brand-green mb-2">50+</div>
+              <div className="text-3xl font-heading font-bold text-brand-green mb-2">3& 0+</div>
               <div className="text-sm font-body text-foreground/60">Projects Delivered</div>
             </div>
             <div className="text-center">
@@ -74,8 +75,12 @@ const HeroSection = () => {
               <div className="text-sm font-body text-foreground/60">Support</div>
             </div>
           </div>
+          <br></br>
+          <br></br>
+          <br></br>
         </div>
       </div>
+      
 
       {/* Scroll Indicator */}
       <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 animate-bounce">

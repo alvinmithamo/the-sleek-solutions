@@ -70,7 +70,7 @@ const AboutSection = () => {
             <span className="bg-gradient-primary bg-clip-text text-transparent"> Digital Innovation</span>
           </h2>
           <p className="text-xl text-foreground/70 max-w-3xl mx-auto font-body leading-relaxed">
-            We're a forward-thinking digital agency that transforms ideas into powerful, scalable solutions that drive business growth.
+            We're a forward-thinking tech agency that transforms ideas into powerful, scalable solutions that drive business growth.
           </p>
         </div>
 
@@ -95,7 +95,7 @@ const AboutSection = () => {
           <div className="relative animate-slide-in-right">
             <div className="bg-gradient-primary p-8 rounded-2xl relative overflow-hidden">
               <div className="relative z-10">
-                <div className="text-4xl font-heading font-bold text-primary-foreground mb-2">50+</div>
+                <div className="text-4xl font-heading font-bold text-primary-foreground mb-2">30+</div>
                 <div className="text-primary-foreground/80 font-body">Successful Projects</div>
               </div>
               <div className="absolute top-0 right-0 w-20 h-20 bg-white/10 rounded-full -mr-10 -mt-10"></div>
