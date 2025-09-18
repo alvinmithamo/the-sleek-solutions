@@ -87,9 +87,11 @@ const AboutSection = () => {
               look stunning but also drive real business results. Every project we undertake is a testament to our commitment 
               to excellence and innovation.
             </p>
+            <a href="#contact" className="mb-8 inline-block">
             <Button variant="neon" className="group">
-              Learn More About Our Process
+             Get in Touch
             </Button>
+            </a>
           </div>
 
           <div className="relative animate-slide-in-right">

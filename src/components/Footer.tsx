@@ -105,25 +105,25 @@ const Footer = () => {
                 <div className="w-8 h-8 bg-brand-green/20 rounded-lg flex items-center justify-center">
                   <Mail className="w-4 h-4 text-brand-green" />
                 </div>
-                <span className="text-foreground/70 font-body">hello@sleeksolutions.com</span>
+                <span className="text-foreground/70 font-body">thesleeksolutionsltd@gmail.com</span>
               </div>
               <div className="flex items-center space-x-3">
                 <div className="w-8 h-8 bg-brand-green/20 rounded-lg flex items-center justify-center">
                   <Phone className="w-4 h-4 text-brand-green" />
                 </div>
-                <span className="text-foreground/70 font-body">+1 (555) 123-4567</span>
+                <span className="text-foreground/70 font-body">+254706824750</span>
               </div>
               <div className="flex items-center space-x-3">
                 <div className="w-8 h-8 bg-brand-green/20 rounded-lg flex items-center justify-center">
                   <MapPin className="w-4 h-4 text-brand-green" />
                 </div>
-                <span className="text-foreground/70 font-body">San Francisco, CA</span>
+                <span className="text-foreground/70 font-body">Nairobi, Kenya</span>
               </div>
             </div>
             
             <div className="mt-6">
               <Button variant="neon" size="sm" className="w-full">
-                Start Project
+               Get Quote
               </Button>
             </div>
           </div>

@@ -10,43 +10,43 @@ const TestimonialsSection = () => {
   const testimonials = [
     {
       id: 1,
-      name: 'Sarah Chen',
-      position: 'CEO, TechStart Inc.',
-      company: 'TechStart Inc.',
+      name: 'Dr. Dorcus Muchiri',
+      position: 'Gynaecologist & Founder, HEWA',
+      company: 'HEWA.',
       image: '/api/placeholder/80/80',
       rating: 5,
-      text: 'The Sleek Solutions transformed our digital presence completely. Their innovative approach and attention to detail resulted in a 300% increase in our conversion rates. Absolutely exceptional work!',
-      project: 'E-commerce Platform Development',
+      text: 'The Sleek Solutions transformed our online presence with a stunning website that truly reflects our mission. Their team was professional, responsive, and delivered beyond our expectations.',
+      project: 'Medical Website',
     },
     {
       id: 2,
-      name: 'Michael Rodriguez',
-      position: 'Founder, GreenTech Solutions',
-      company: 'GreenTech Solutions',
+      name: 'Livingstone A.',
+      position: 'Founder & CEO, Voi Adventures',
+      company: 'Voi Adventures',
       image: '/api/placeholder/80/80',
       rating: 5,
-      text: 'Working with The Sleek Solutions was a game-changer for our sustainability platform. They delivered beyond our expectations and helped us secure $2M in funding with their amazing dashboard design.',
-      project: 'Sustainability Dashboard',
+      text: 'Working with The Sleek Solutions was a game-changer for our to tour company website. They delivered beyond our expectations',
+      project: 'Tours & Travel Website',
     },
     {
       id: 3,
-      name: 'Emily Watson',
-      position: 'Marketing Director, HealthFlow',
-      company: 'HealthFlow',
+      name: 'Moses Mwaura',
+      position: 'Director, Midfair Insurance Agency',
+      company: 'Midfair Insurance',
       image: '/api/placeholder/80/80',
       rating: 5,
-      text: 'Their digital marketing expertise is unmatched. The campaign they created generated over 50,000 qualified leads and increased our brand awareness by 400%. Highly recommend!',
-      project: 'Digital Marketing Campaign',
+      text: 'The team at The Sleek Solutions is exceptional. They developed a comprehensive insurance management system that has streamlined our operations and improved client satisfaction.',
+      project: 'Insurance Management System',
     },
     {
       id: 4,
-      name: 'David Kim',
-      position: 'CTO, FinanceFlow',
-      company: 'FinanceFlow',
+      name: 'Moroga W.',
+      position: 'Founder, Moroga Wangwi & Associates Advocates',
+      company: 'Moroga Wangwi & Associates Advocates',
       image: '/api/placeholder/80/80',
       rating: 5,
-      text: 'The web application they built for us handles millions of transactions flawlessly. Their technical expertise and project management skills are truly world-class.',
-      project: 'Financial Management System',
+      text: 'The Sleek Solutions created a professional and user-friendly website for our law firm. Their attention to detail and commitment to quality is unmatched.',
+      project: 'Law Firm Website',
     },
   ];
 
@@ -208,14 +208,16 @@ const TestimonialsSection = () => {
         {/* CTA Section */}
         <div className="text-center animate-fade-in">
           <h3 className="text-2xl font-heading font-bold text-foreground mb-4">
-            Ready to Join Our Success Stories?
+          Have a Project in Mind? Let's Talk!
           </h3>
           <p className="text-foreground/70 mb-8 font-body">
-            Let's discuss how we can help transform your business with innovative digital solutions.
+            Let's discuss how we can help transform your business with innovative digital solutions. Contact us today!
           </p>
-          <Button variant="hero" size="xl" className="group">
-            Start Your Success Story
-          </Button>
+          <a href="#contact" className="inline-block">
+            <Button variant="hero" size="xl" className="group">
+              Get in Touch
+            </Button>
+          </a>
         </div>
       </div>
 

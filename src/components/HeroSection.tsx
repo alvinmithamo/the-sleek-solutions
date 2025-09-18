@@ -41,14 +41,18 @@ const HeroSection = () => {
 
           {/* CTA Buttons */}
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4 mb-12 animate-slide-up" style={{ animationDelay: '0.4s' }}>
+            <a href="#contact" className="mb-8 inline-block">
             <Button variant="hero" size="xl" className="group">
-              Start Your Project
+              Get Started Today
               <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform duration-300" />
             </Button>
+            </a>
+            <a href="#portfolio" className="mb-8 inline-block">
             <Button variant="glass" size="xl" className="group">
               <Zap className="w-5 h-5 text-brand-green" />
               View Our Work
             </Button>
+            </a>
           </div>
 
           {/* Stats */}

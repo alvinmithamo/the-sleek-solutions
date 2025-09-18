@@ -109,10 +109,12 @@ const ServicesSection = () => {
 
         {/* Bottom CTA */}
         <div className="text-center mt-16 animate-fade-in">
+          <a href="#contact" className="mb-8 inline-block">
           <Button variant="neon-glow" size="xl" className="group">
             Get Started Today
             <ArrowRight className="w-5 h-5 ml-2 group-hover:translate-x-1 transition-transform duration-300" />
           </Button>
+          </a>
         </div>
       </div>
 

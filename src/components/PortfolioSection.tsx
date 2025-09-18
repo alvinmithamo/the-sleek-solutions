@@ -298,11 +298,14 @@ const PortfolioSection = () => {
 
         {/* Bottom CTA */}
         <div className="text-center mt-16 animate-fade-in">
+          
           <p className="text-foreground/70 mb-6 font-body">Ready to start your project?</p>
+          <a href="#contact" className="mb-8 inline-block">
           <Button variant="hero" size="xl" className="group">
             Get Started Today
             <ArrowRight className="w-5 h-5 ml-2 group-hover:translate-x-1 transition-transform duration-300" />
           </Button>
+          </a>  
         </div>
       </div>
 

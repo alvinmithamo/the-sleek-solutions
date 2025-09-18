@@ -60,9 +60,11 @@ const Navigation = () => {
 
           {/* CTA Button */}
           <div className="hidden md:flex items-center space-x-4">
+            <a href="#contact" className=" inline-block">
             <Button variant="neon" size="sm">
               Get Quote
             </Button>
+            </a> 
           </div>
 
           {/* Mobile Menu Button */}
