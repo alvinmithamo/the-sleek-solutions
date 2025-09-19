@@ -58,7 +58,7 @@ const HeroSection = () => {
           {/* Stats */}
           <div className="grid grid-cols-2 md:grid-cols-4 gap-8 max-w-2xl mx-auto animate-fade-in" style={{ animationDelay: '0.6s' }}>
             <div className="text-center">
-              <div className="text-3xl font-heading font-bold text-brand-green mb-2">3& 0+</div>
+              <div className="text-3xl font-heading font-bold text-brand-green mb-2">20+</div>
               <div className="text-sm font-body text-foreground/60">Projects Delivered</div>
             </div>
             <div className="text-center">
