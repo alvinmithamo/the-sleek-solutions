@@ -15,7 +15,7 @@ const AboutSection = () => {
     {
       year: '2022',
       title: 'First Major Clients',
-      description: 'Secured partnerships with 15+ startups and small businesses, delivering cutting-edge solutions.',
+      description: 'Secured partnerships with big brands and small businesses, delivering cutting-edge solutions.',
       icon: Users,
     },
     {
@@ -136,55 +136,7 @@ const AboutSection = () => {
         </div>
 
         {/* Timeline Section */}
-        <div>
-          <h3 className="text-2xl font-heading font-bold text-foreground text-center mb-12">Our Journey</h3>
-          <div className="relative">
-            {/* Timeline Line */}
-            <div className="absolute left-1/2 transform -translate-x-1/2 w-1 h-full bg-gradient-primary hidden md:block"></div>
-            
-            <div className="space-y-8 md:space-y-12">
-              {milestones.map((milestone, index) => {
-                const Icon = milestone.icon;
-                const isActive = activeTimeline === index;
-                
-                return (
-                  <div
-                    key={index}
-                    className={`flex flex-col md:flex-row items-center transition-all duration-500 ${
-                      index % 2 === 0 ? 'md:flex-row' : 'md:flex-row-reverse'
-                    }`}
-                    onClick={() => setActiveTimeline(index)}
-                  >
-                    {/* Content */}
-                    <div className={`w-full md:w-5/12 ${index % 2 === 0 ? 'md:text-right md:pr-8' : 'md:text-left md:pl-8'}`}>
-                      <div className={`bg-card/50 backdrop-blur-sm border rounded-2xl p-6 cursor-pointer transition-all duration-300 hover:border-brand-green/50 ${
-                        isActive ? 'border-brand-green shadow-neon scale-105' : 'border-card-hover'
-                      }`}>
-                        <div className="text-brand-green font-heading font-bold text-lg mb-2">{milestone.year}</div>
-                        <h4 className="text-xl font-heading font-semibold text-foreground mb-3">{milestone.title}</h4>
-                        <p className="text-foreground/70 font-body">{milestone.description}</p>
-                      </div>
-                    </div>
-
-                    {/* Center Icon */}
-                    <div className="relative z-10 my-4 md:my-0">
-                      <div className={`w-16 h-16 rounded-full flex items-center justify-center border-4 transition-all duration-300 ${
-                        isActive 
-                          ? 'bg-gradient-primary border-brand-green shadow-neon' 
-                          : 'bg-background-secondary border-card-hover'
-                      }`}>
-                        <Icon className={`w-6 h-6 ${isActive ? 'text-primary-foreground' : 'text-foreground/60'}`} />
-                      </div>
-                    </div>
-
-                    {/* Spacer */}
-                    <div className="w-full md:w-5/12"></div>
-                  </div>
-                );
-              })}
-            </div>
-          </div>
-        </div>
+       
       </div>
 
       {/* Background Decorations */}
